@@ -1,6 +1,6 @@
-package com.basava.abstract_factory_pattern.cars;
+package com.basava.abstract_factory_pattern.cars.ordinary;
 
-public class Brezza implements Car{
+public class Brezza implements OrdinaryCar {
     @Override
     public double avgSpeed() {
         return 65.0;

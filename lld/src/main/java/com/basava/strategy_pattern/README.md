@@ -1,5 +1,7 @@
 # Strategy design pattern
 
+It is a Behavioural design pattern.
+
 It can happen that different child classes might want to have their own implementation
 of the base methods. And in this process we identify that few child classes have
 the exact same overridden implementations.

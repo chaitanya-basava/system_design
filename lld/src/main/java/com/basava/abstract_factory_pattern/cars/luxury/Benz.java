@@ -1,6 +1,6 @@
-package com.basava.abstract_factory_pattern.cars;
+package com.basava.abstract_factory_pattern.cars.luxury;
 
-public class Benz implements Car{
+public class Benz implements LuxuryCar {
     @Override
     public double avgSpeed() {
         return 90.0;

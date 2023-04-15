@@ -1,6 +1,6 @@
-package com.basava.abstract_factory_pattern.cars;
+package com.basava.abstract_factory_pattern.cars.ordinary;
 
-public class Swift implements Car{
+public class Swift implements OrdinaryCar {
 
     @Override
     public double avgSpeed() {

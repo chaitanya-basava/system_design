@@ -9,10 +9,10 @@ public class Main {
         CarFactory ordinaryFactory = CarFactory.getCarFactory("Ordinary");
 
         assert luxuryFactory != null;
-        Car car1 = luxuryFactory.getCar("BMW");
+        Car car1 = luxuryFactory.getLuxuryCar("BMW");
 
         assert ordinaryFactory != null;
-        Car car2 = ordinaryFactory.getCar("Brezza");
+        Car car2 = ordinaryFactory.getOrdinaryCar("Brezza");
 
         System.out.println(car1.getName() + " has an average speed of " + car1.avgSpeed());
         System.out.println(car2.getName() + " has an average speed of " + car2.avgSpeed());
