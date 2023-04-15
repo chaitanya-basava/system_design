@@ -10,4 +10,9 @@ public class Benz implements LuxuryCar {
     public String getName() {
         return "Benz";
     }
+
+    @Override
+    public String getLuxuryType() {
+        return "Speed and back rest";
+    }
 }

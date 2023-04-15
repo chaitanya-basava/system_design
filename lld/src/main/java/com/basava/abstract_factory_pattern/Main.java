@@ -1,7 +1,8 @@
 package com.basava.abstract_factory_pattern;
 
-import com.basava.abstract_factory_pattern.cars.Car;
 import com.basava.abstract_factory_pattern.car_factories.CarFactory;
+import com.basava.abstract_factory_pattern.cars.luxury.LuxuryCar;
+import com.basava.abstract_factory_pattern.cars.ordinary.OrdinaryCar;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,12 +10,20 @@ public class Main {
         CarFactory ordinaryFactory = CarFactory.getCarFactory("Ordinary");
 
         assert luxuryFactory != null;
-        Car car1 = luxuryFactory.getLuxuryCar("BMW");
+        LuxuryCar car1 = luxuryFactory.getLuxuryCar("BMW");
 
         assert ordinaryFactory != null;
-        Car car2 = ordinaryFactory.getOrdinaryCar("Brezza");
+        OrdinaryCar car2 = ordinaryFactory.getOrdinaryCar("Brezza");
 
-        System.out.println(car1.getName() + " has an average speed of " + car1.avgSpeed());
-        System.out.println(car2.getName() + " has an average speed of " + car2.avgSpeed());
+        System.out.println(
+                car1.getName()
+                + " has an average speed of " + car1.avgSpeed()
+                + " and has luxury components: " + car1.getLuxuryType()
+        );
+        System.out.println(
+                car2.getName()
+                + " has an average speed of " + car2.avgSpeed()
+                + " and is ordinary"
+        );
     }
 }

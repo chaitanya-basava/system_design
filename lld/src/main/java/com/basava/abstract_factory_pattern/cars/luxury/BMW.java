@@ -10,4 +10,9 @@ public class BMW implements LuxuryCar {
     public String getName() {
         return "BMW";
     }
+
+    @Override
+    public String getLuxuryType() {
+        return "Smooth seats";
+    }
 }
