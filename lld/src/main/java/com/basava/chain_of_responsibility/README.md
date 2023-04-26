@@ -30,3 +30,7 @@ Each concrete handler classes need to extend the Abstract handler class, this wi
 concrete class and allow us to compose different chains during runtime.
 
 Through chaining the handlers dynamically (based on use case), we can avoid code duplication.
+
+In the code implementation:
+- logger class is for type-1 
+- validator class is for type-2
