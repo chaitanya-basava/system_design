@@ -20,7 +20,7 @@ from the bunch would be covered in this repo.
 ### Behavioural design patterns
 - [X] [Strategy Pattern](src/main/java/com/basava/strategy_pattern/README.md)
 - [X] [Observer Pattern](src/main/java/com/basava/observer_pattern/README.md)
-- [ ] Chain of Responsibility Pattern
+- [X] [Chain of Responsibility Pattern](src/main/java/com/basava/chain_of_responsibility/README.md)
 - [ ] Command Pattern
 - [ ] Interpreter Pattern
 - [ ] Iterator Pattern
