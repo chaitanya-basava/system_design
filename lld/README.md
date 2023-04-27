@@ -36,5 +36,5 @@ from the bunch would be covered in this repo.
 - [ ] Composite Pattern
 - [ ] Facade Pattern
 - [ ] Flyweight Pattern
-- [ ] proxy Pattern
+- [X] [proxy Pattern](src/main/java/com/basava/proxy_pattern/README.md)
 
