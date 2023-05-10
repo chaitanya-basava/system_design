@@ -31,7 +31,7 @@ from the bunch would be covered in this repo.
 
 ### Structural design patterns
 - [X] [Decorator Pattern](src/main/java/com/basava/decorator_pattern)
-- [ ] Adapter Pattern
+- [X] [Adapter Pattern](src/main/java/com/basava/adapter_pattern)
 - [ ] Bridge Pattern
 - [X] [Composite Pattern](src/main/java/com/basava/composite_pattern)
 - [ ] Facade Pattern
