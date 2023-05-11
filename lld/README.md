@@ -14,7 +14,7 @@ from the bunch would be covered in this repo.
 - [X] [Abstract Factory Method Pattern](src/main/java/com/basava/abstract_factory_pattern)
 - [ ] Singleton Pattern
 - [ ] Prototype Pattern
-- [ ] Builder Pattern
+- [X] [Builder Pattern](src/main/java/com/basava/builder_pattern)
 - [ ] Object Pool Pattern
 
 ### Behavioural design patterns
