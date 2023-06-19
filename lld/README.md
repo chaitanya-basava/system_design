@@ -12,7 +12,7 @@ from the bunch would be covered in this repo.
 
 ### Creational design patterns
 - [X] [Abstract Factory Method Pattern](src/main/java/com/basava/abstract_factory_pattern)
-- [ ] Singleton Pattern
+- [X] [Singleton Pattern](src/main/java/com/basava/singleton_pattern)
 - [ ] Prototype Pattern
 - [X] [Builder Pattern](src/main/java/com/basava/builder_pattern)
 - [ ] Object Pool Pattern
@@ -35,6 +35,6 @@ from the bunch would be covered in this repo.
 - [ ] Bridge Pattern
 - [X] [Composite Pattern](src/main/java/com/basava/composite_pattern)
 - [ ] Facade Pattern
-- [ ] Flyweight Pattern
+- [X] [Flyweight Pattern](src/main/java/com/basava/flyweight_pattern)
 - [X] [proxy Pattern](src/main/java/com/basava/proxy_pattern)
 
