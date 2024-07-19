@@ -31,7 +31,7 @@ We can further implement a Director class that can direct and implement these st
 of the builder class in a pre-defined order (can cater to use cases where one setter is dependent on another), further helping
 in orchestrating the creation of the objects of the main class.
 
-This contains 2 layers
+This contains 3 layers
 - main class
 - builder class
 - director class (optional, needed when you want to have control on how the builder fields are populated,
