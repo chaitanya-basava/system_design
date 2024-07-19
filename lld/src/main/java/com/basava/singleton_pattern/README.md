@@ -19,9 +19,11 @@ that class private.
 
 ![eager.png](../../../../resources/imgs/singleton/eager.png)
 
-The object variable is made as static, to make the variable related to the class rather than a single object instance.
-The object will get initialised eagerly during the class loading phase itself, instead of when the class is tried to 
+The object variable is made as static, to make the variable related to the class rather than to a single object instance.
+The object will get **initialised eagerly during the class loading phase** itself, instead of when the class is tried to 
 be initialised.
+
+Also, the constructor is made private, so that no other class can create an object of this class.
 
 ## Lazy initialisation:
 
@@ -29,28 +31,28 @@ be initialised.
 
 Instead of creating the instance at load time itself, we initialise it when it’s actually needed for the first time.
 Problem: if multiple threads try to get an instance simultaneously, then both will try creating the instance 
-(as for them the obj is still null), so multiple obj will get created in memory -> can be solved by making the getInstance method synchronized
+(as for them the obj is still null), so multiple obj will get created in memory due to interleaving's
+-> can be solved by making the getInstance method synchronized
 
 ## Synchronized method:
 
 ![synchronized.png](../../../../resources/imgs/singleton/synchronized.png)
 
 This helps avoid race conditions by treating the conObject as shared resource. But this is very expensive, 
-especially when there are a lot of requests coming in - as each call needs to put lock every time.
+especially when there are a lot of requests coming in - as each call needs to acquire the lock every time.
 
 ## Double locking:
 
 ![double-locking.png](../../../../resources/imgs/singleton/double-locking.png)
 
-This is used to avoid this multiple times of locking which pops up while using a synchronised methods in Java.
-
+This is used to avoid locking for every request which pops up while using a synchronised methods in Java.
 
 Locking happens only when object is being initialised for the first time - achieved through synchronised block, 
 which locks the class when object is being initialised (and this of course happens only once).
 
-Through this only the initial few threads will apply a lock on the class, while all the following ones will just 
-move on with using the already created object instance. We are actually double-checking on whether locking needs 
-to be done or not.
+Only the initial few threads will apply a lock on the class, while all the following ones will just 
+move on with using the already created object instance. We do double-check on whether locking needs 
+to be done or not, to avoid create multiple instances due to interleaving's.
 
 There can be a memory issues with this implementation though, let’s discuss them below.
 
