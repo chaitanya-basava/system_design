@@ -11,6 +11,8 @@ Each of the categories have multiple different patterns, the important one's
 from the bunch would be covered in this repo.
 
 ### Creational design patterns
+provide object creation mechanisms that increase flexibility and reuse of existing code
+
 - [X] [Abstract Factory Method Pattern](src/main/java/com/basava/abstract_factory_pattern)
 - [X] [Singleton Pattern](src/main/java/com/basava/singleton_pattern)
 - [ ] Prototype Pattern
@@ -18,6 +20,8 @@ from the bunch would be covered in this repo.
 - [ ] Object Pool Pattern
 
 ### Behavioural design patterns
+take care of effective communication and the assignment of responsibilities between objects
+
 - [X] [Strategy Pattern](src/main/java/com/basava/strategy_pattern)
 - [X] [Observer Pattern](src/main/java/com/basava/observer_pattern)
 - [X] [Chain of Responsibility Pattern](src/main/java/com/basava/chain_of_responsibility)
@@ -30,6 +34,8 @@ from the bunch would be covered in this repo.
 - [ ] Template Pattern
 
 ### Structural design patterns
+explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient
+
 - [X] [Decorator Pattern](src/main/java/com/basava/decorator_pattern)
 - [X] [Adapter Pattern](src/main/java/com/basava/adapter_pattern)
 - [ ] Bridge Pattern
