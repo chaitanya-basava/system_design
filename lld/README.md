@@ -11,11 +11,12 @@ Each of the categories have multiple different patterns, the important one's
 from the bunch would be covered in this repo.
 
 ### Creational design patterns
-provide object creation mechanisms that increase flexibility and reuse of existing code
+provide object creation mechanisms that increase flexibility and reuse of existing code. It is responsible for creating
+objects (or) controlling the object creation process.
 
 - [X] [Abstract Factory Method Pattern](src/main/java/com/basava/abstract_factory_pattern)
 - [X] [Singleton Pattern](src/main/java/com/basava/singleton_pattern)
-- [ ] Prototype Pattern
+- [X] [Prototype Pattern](src/main/java/com/basava/prototype_pattern)
 - [X] [Builder Pattern](src/main/java/com/basava/builder_pattern)
 - [X] [Object Pool Pattern](src/main/java/com/basava/object_pool_pattern)
 
