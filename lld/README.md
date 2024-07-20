@@ -17,7 +17,7 @@ provide object creation mechanisms that increase flexibility and reuse of existi
 - [X] [Singleton Pattern](src/main/java/com/basava/singleton_pattern)
 - [ ] Prototype Pattern
 - [X] [Builder Pattern](src/main/java/com/basava/builder_pattern)
-- [ ] Object Pool Pattern
+- [X] [Object Pool Pattern](src/main/java/com/basava/object_pool_pattern)
 
 ### Behavioural design patterns
 take care of effective communication and the assignment of responsibilities between objects
