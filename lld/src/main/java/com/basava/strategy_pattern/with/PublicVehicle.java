@@ -1,9 +1,9 @@
 package com.basava.strategy_pattern.with;
 
-import com.basava.strategy_pattern.with.strategy.NormalDriveStartegy;
+import com.basava.strategy_pattern.with.strategy.NormalDriveStrategy;
 
 public class PublicVehicle extends Vehicle {
     PublicVehicle() {
-        super(new NormalDriveStartegy());
+        super(new NormalDriveStrategy());
     }
 }

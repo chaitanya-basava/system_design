@@ -8,7 +8,8 @@ the exact same overridden implementations.
 
 ### Use-case:
 Child classes are having same code logic which isn’t implemented
-by the base code. Helps reduce code redundancy.
+by the base code or is different from the base code. In this case all such child classes will have
+to implement the same logic, which is a code duplication. That's where Strategy pattern comes into picture.
 
 ### Problems
 code duplication keeps increasing when scaling with more child classes
@@ -30,5 +31,11 @@ out of the child classes and only thing they need to do is to
 inject the respective DriveStrategy's obj that they want to use.
 
 Here we are essentially trying to separate out the dependency of
-drive method from the parent class by making various strategies that
+drive method from the parent class by making various **strategies** that
 can be injected dynamically based on child classes requirements.
+
+All such methods (mentioned in use-cae) are implemented in there respective Strategy classes, and 
+injected into the child classes based what the child wants/does.
+
+## Additional read
+- https://refactoring.guru/design-patterns/strategy

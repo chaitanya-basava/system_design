@@ -1,7 +1,7 @@
 package com.basava.prototype_pattern;
 
 public class Student implements Prototype {
-    private final String name;
+    private String name;
     private final int age;
     private final String address;
 
@@ -9,6 +9,10 @@ public class Student implements Prototype {
         this.name = name;
         this.age = age;
         this.address = address;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override

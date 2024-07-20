@@ -6,6 +6,7 @@ public class Main {
         System.out.println(student);
 
         Student studentClone = (Student) student.clone();
+        studentClone.setName("John Doe");
         System.out.println(studentClone);
     }
 }
