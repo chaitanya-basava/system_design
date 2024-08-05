@@ -26,6 +26,7 @@ take care of effective communication and the assignment of responsibilities betw
 - [X] [Strategy Pattern](src/main/java/com/basava/strategy_pattern)
 - [X] [Observer Pattern](src/main/java/com/basava/observer_pattern)
 - [X] [Chain of Responsibility Pattern](src/main/java/com/basava/chain_of_responsibility)
+- [X] [NULL Object Pattern](src/main/java/com/basava/null_object_pattern)
 - [ ] Command Pattern
 - [ ] Interpreter Pattern
 - [ ] Iterator Pattern
