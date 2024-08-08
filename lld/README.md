@@ -24,16 +24,16 @@ It is responsible for creating objects (or) controlling the object creation proc
 take care of effective communication and the assignment of responsibilities between objects
 
 - [X] [Strategy Pattern](src/main/java/com/basava/behavioral/strategy_pattern)
-- [X] [Observer Pattern](src/main/java/com/basava/behavioral/observer_pattern)
-- [X] [Chain of Responsibility Pattern](src/main/java/com/basava/behavioral/chain_of_responsibility)
 - [X] [NULL Object Pattern](src/main/java/com/basava/behavioral/null_object_pattern)
 - [X] [Command Pattern](src/main/java/com/basava/behavioral/command_pattern)
-- [ ] Interpreter Pattern
-- [ ] Iterator Pattern
-- [ ] Mediator Pattern
-- [ ] Memento Pattern
-- [ ] State Pattern
+- [X] [Iterator Pattern](src/main/java/com/basava/behavioral/iterator_pattern)
 - [ ] Template Pattern
+- [X] [Chain of Responsibility Pattern](src/main/java/com/basava/behavioral/chain_of_responsibility)
+- [ ] Mediator Pattern
+- [ ] Interpreter Pattern
+- [X] [Observer Pattern](src/main/java/com/basava/behavioral/observer_pattern)
+- [ ] State Pattern
+- [ ] Memento Pattern
 
 ### Structural design patterns
 explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient
