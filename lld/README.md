@@ -27,7 +27,7 @@ take care of effective communication and the assignment of responsibilities betw
 - [X] [NULL Object Pattern](src/main/java/com/basava/behavioral/null_object_pattern)
 - [X] [Command Pattern](src/main/java/com/basava/behavioral/command_pattern)
 - [X] [Iterator Pattern](src/main/java/com/basava/behavioral/iterator_pattern)
-- [X] Template Pattern
+- [X] [Template Pattern](src/main/java/com/basava/behavioral/template_method_pattern)
 - [X] [Chain of Responsibility Pattern](src/main/java/com/basava/behavioral/chain_of_responsibility)
 - [ ] Mediator Pattern
 - [ ] Interpreter Pattern
