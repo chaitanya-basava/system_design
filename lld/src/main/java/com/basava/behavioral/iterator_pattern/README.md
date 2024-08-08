@@ -18,7 +18,13 @@ internal implementation of how the collection iterates. The internal representat
 It Can be achieved using the Iterator interface, any class implementing this interface needs to implement hasNext and next.
 All java collections classes implement this, and the client only needs to call iterator method to get the iterator object.
 
-See this code to know how to write the class implementing Iterator and how to use it - [GitHub](https://github.com/chaitanya-basava/CS5343-Assignments/blob/main/assignment4/SinglyLinkedList.java) 
+See this code to know how to write the class implementing Iterator and how to use it - [GitHub](https://github.com/chaitanya-basava/CS5343-Assignments/blob/main/assignment4/SinglyLinkedList.java)
+
+An image from the refactoring.guru website explains the pattern in a simple way.
+
+![Iterator design pattern](https://refactoring.guru/images/patterns/diagrams/iterator/structure-2x.png)
+
+The collection gets injected into iterator via constructor injection.
 
 ## Additional read
 - https://refactoring.guru/design-patterns/iterator
