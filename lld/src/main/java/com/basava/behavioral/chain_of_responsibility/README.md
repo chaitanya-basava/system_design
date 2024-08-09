@@ -4,9 +4,11 @@ This is a Behavioral design pattern.
 
 **Direct application Use cases:**
 1. Design ATM or Vending machine - type 1
+    - ATM has different handlers for different denominations of currency.
 2. Design Logger - type 1
 3. Authentication/Authorisation system—type 2
-4. …..
+    - each handle would validate some aspect of the authorization (check email, check password, check ip, etc.).
+4. ....
 
 Whenever a sender sends a request, and it isn’t concerned about who amongst the receiver’s would fulfill that request.
 This is where chain of responsibilities pattern can be used.
@@ -16,6 +18,8 @@ It has two implementation variants:
 **Type-1:** The request will be propagated forward till a suitable receiver for processing that request isn’t identified.
 Whichever receiver fulfilling the request, will send back the response to the sender directly,
 and propagation would be stopped.
+Useful when the client doesn't know which handler will be able to process the request.
+It would just shoot the request and let the chain check if it can be processed and by whom.
 
 **Type-2:** Alternatively, the chain can keep going forward if the current handler succeeds, if any handler fails the
 checks, then we can send back a failed message to sender.

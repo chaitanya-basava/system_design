@@ -7,6 +7,7 @@ public abstract class AbstractLogger {
 
     private AbstractLogger nextLogger;
 
+    // 2nd type of setting next handler
     public void setNextLogger(AbstractLogger nextLogger) {
         this.nextLogger = nextLogger;
     }

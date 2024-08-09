@@ -5,7 +5,7 @@ public abstract class AbstractValidator {
 
     public abstract String validate(double input);
 
-    // alternatively we can use setNextValidator() method
+    // 1st type of setting next handler, alternatively we can use setNextValidator() method
     AbstractValidator(AbstractValidator nextValidator) {
         this.nextValidator = nextValidator;
     }
