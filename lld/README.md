@@ -30,7 +30,7 @@ take care of effective communication and the assignment of responsibilities betw
 - [X] [Template Pattern](src/main/java/com/basava/behavioral/template_method_pattern)
 - [X] [Chain of Responsibility Pattern](src/main/java/com/basava/behavioral/chain_of_responsibility)
 - [X] [Mediator Pattern](src/main/java/com/basava/behavioral/mediator_pattern)
-- [ ] Interpreter Pattern
+- [X] [Interpreter Pattern](src/main/java/com/basava/behavioral/interpreter_pattern)
 - [X] [Observer Pattern](src/main/java/com/basava/behavioral/observer_pattern)
 - [ ] State Pattern
 - [ ] Memento Pattern
