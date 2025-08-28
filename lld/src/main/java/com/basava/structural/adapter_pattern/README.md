@@ -6,7 +6,7 @@ It’s like a bridge between an existing interface and an expected interface.
 
 ![adapter_pattern.png](../../../../../resources/imgs/adapter_pattern.png)
 
-Client wants to use existing interface (Adapter), but they’re incompatible and hence can’t use it directly.
+Client wants to use existing interface (Adaptee), but they’re incompatible and hence can’t use it directly.
 That’s where adapter comes into the scene, it implements the interface that’s compatible with the client and 
 knows how to talk to the existing interface.
 Thus acting like a bridge.
@@ -21,8 +21,8 @@ Thus acting like a bridge.
     2. **Adaptee** - server which returns only XML
     3. **Adaptor** - a converter plugin/server/middleware, this converts XML to JSON and returns JSON
 
-Adaptor can handle the necessary conversion login and return final response.
+Adaptor can handle the necessary conversion logic and return final response.
 This helps, especially when the output of some service is used at multiple places in our clients code.
-If there is any server side code change, then only the convention login within adaptor needs to be updated.
+If there is any server side code change, then only the conversion logic within adaptor needs to be updated.
 If no adaptor, then all the code blocks using the server’s response need to update their logic
 (thus helping in reducing code redundancy)
