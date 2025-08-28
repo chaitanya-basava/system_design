@@ -42,7 +42,7 @@ explain how to assemble objects and classes into larger structures, while keepin
 - [X] [Adapter Pattern](src/main/java/com/basava/structural/adapter_pattern)
 - [ ] Bridge Pattern
 - [X] [Composite Pattern](src/main/java/com/basava/structural/composite_pattern)
-- [ ] Facade Pattern
+- [ ] [Facade Pattern](src/main/java/com/basava/structural/facade_pattern)
 - [X] [Flyweight Pattern](src/main/java/com/basava/structural/flyweight_pattern)
 - [X] [proxy Pattern](src/main/java/com/basava/structural/proxy_pattern)
 

@@ -1,6 +1,7 @@
 # Decorator pattern
 
 It is a Structural design pattern.
+That allows us to dynamically add new behavior without modifying their underlying code.
 
 We have a base object which has some features say F1 and F2.
 To add additional features say F3 to this class on top of the

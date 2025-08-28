@@ -1,6 +1,7 @@
 # Composite pattern
 
 This is a structural design pattern—as it creates a tree like structure of a group of objects.
+It lets you treat individual objects and composition of objects uniformly.
 
 Object inside object—It happens in a tree like structure,
 each object would hold its 2 (or more) child node’s objects (except the leaf nodes).
