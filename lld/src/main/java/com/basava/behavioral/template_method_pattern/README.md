@@ -2,6 +2,8 @@
 
 It is a Behavioral design pattern. This is a very frequently used pattern in the industry.
 
+defines the skeleton of an algorithm in a base class, but allows subclasses to override specific steps of the algorithm without changing its overall structure.
+
 **Problem:**
 
 When we want all classes to follow a specific set of steps to process a task.
